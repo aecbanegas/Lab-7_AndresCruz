@@ -11,7 +11,7 @@ class Persona{
         Elemento elemento;
         Poder poder;
     public:
-        virtual string toString();
+        virtual string toString()=0;
         Persona(string,string,int,bool,Elemento,Poder);
 };
 #endif

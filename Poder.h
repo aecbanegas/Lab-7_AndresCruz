@@ -4,6 +4,6 @@
 using std::string;
 class Poder{
     public:
-        virtual string toString();
+        virtual string toString()=0;
 };
 #endif
