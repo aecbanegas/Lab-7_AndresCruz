@@ -3,8 +3,8 @@
 using std::stringstream;
 string Invocacion::toString(){
     stringstream mostrar;
-    mostrar<<"Su poder es tipo: Invocacion Mascota Su mascota se llama: "<<nombre<<"/nEs de especie: "<<especie
-        <<" Su habilidad es: "<<habilidad<<"/nEs de tipo: ";
+    mostrar<<"Su poder es tipo: Invocacion Mascota Su mascota se llama: "<<nombre<<"\nEs de especie: "<<especie
+        <<" Su habilidad es: "<<habilidad<<"\nEs de tipo: ";
     if(tipo){
         mostrar<<"Domestico";
     }else{
