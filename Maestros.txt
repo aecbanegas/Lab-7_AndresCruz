@@ -1,0 +1,6 @@
+Pertenece a la nacion: Ateniw Su nombre es: Andres
+Su edad es: 19 Su sexo es: masculino Elemento: Fire Bender Cantidad de Cicatrices: 150 Cantidad de Victorias: 150
+ Su poder es tipo: Ofensivo Su rango es: 140 Su fuerza es: 1500
+Pertenece a la nacion: Shao Su nombre es: Ling
+Su edad es: 1000 Su sexo es: masculino Elemento: Water Bender Su tribu de origen es: Norte Su arma preferida es: Katana
+ Su poder es tipo: Ofensivo Su rango es: 10 Su fuerza es: 5000

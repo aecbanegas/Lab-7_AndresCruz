@@ -9,7 +9,9 @@
 #include "Defensivo.h"
 #include "Curativo.h"
 #include "Invocacion.h"
+#include <fstream>
 #include <iostream>
+using std::ofstream;
 using std::cin;
 using std::cout;
 using std::endl;
@@ -360,6 +362,14 @@ int main(){
             cout<<"Se elimino de manera satisfactoria"<<endl;
         }
     }
+    cout<<"Se creara un archivo de Texto .txt con los maestros que no fueron eliminados y se eliminaran los que estaban antes."<<endl;
+    ofstream file;
+    file.open("Maestros.txt");
+    /*file("Maestros.txt",ios::noreplace);*///que no sobreescriba el archivo
+    for (int i = 0; i < personas.size(); i++){
+        file<<personas[i]->toString()<<"\n";
+    }
+    file.close();
     for (int i = 0; i < personas.size(); i++){//liberar memoria
         delete personas[i];
         delete poderes[i];
