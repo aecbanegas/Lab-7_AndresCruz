@@ -1,12 +1,15 @@
-#include "Elemento.h"
+#include "Persona.h"
+#include "Poder.h"
 #ifndef EARTH_H
 #define EARTH_H
-class Earth:public Elemento{
+class Earth:public Persona{
     private:
         double coles;
-        double graduacion;
+        int graduacion;
+        Poder* poder;
     public:
         virtual string toString();
-        Earth(double,double);
+        Earth(string,string,int,bool,double,int,Poder*);
+        virtual string Tipo();
 };
 #endif

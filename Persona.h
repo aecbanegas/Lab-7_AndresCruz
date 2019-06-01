@@ -3,15 +3,14 @@
 #include <string>
 using std::string;
 class Persona{
-    private:
+    protected:
         string nacion;
         string nombre;
         int edad;
         bool sexo;
-        Elemento elemento;
-        Poder poder;
     public:
-        virtual string toString()=0;
-        Persona(string,string,int,bool,Elemento,Poder);
+        virtual string toString();
+        virtual string Tipo();
+        Persona(string,string,int,bool);
 };
 #endif
