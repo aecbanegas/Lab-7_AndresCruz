@@ -332,19 +332,19 @@ int main(){
             for (int i = 0; i < 5; i++){//recorre la lista 5 veces
                 for (int j = 0; j < personas.size(); j++){//revisa los elementes de uno en uno
                     if(i==0&&personas[j]->Tipo()=="Water"){//
-                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString();
+                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString()<<endl;
                     }
                     if(i==1&&personas[j]->Tipo()=="Fire"){
-                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString();
+                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString()<<endl;
                     }
                     if(i==2&&personas[j]->Tipo()=="Earth"){
-                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString();
+                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString()<<endl;
                     }
                     if(i==3&&personas[j]->Tipo()=="Air"){
-                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString();
+                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString()<<endl;
                     }
                     if(i==4&&personas[j]->Tipo()=="Non"){
-                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString();
+                        cout<<"Posicion: "<<j<<" "<<personas[j]->toString()<<endl;
                     }
                 }                
             }   
